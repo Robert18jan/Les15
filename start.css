@@ -1,0 +1,101 @@
+header{
+  background-color: green;
+  width: auto;
+  height: 100px;
+  margin:auto;
+  padding: 10px;
+}
+
+body{
+  font-family: comic sans;
+  font-size: 18px;
+  color:black;
+  background-color: yellow;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+ }
+
+input[type="text"], input[type="email"], textarea, select, button{
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 30px;
+    width: 600px;
+  }
+
+li1{
+  display: inline-block;
+  height: 40px;
+  width: 400px;
+  padding-left: 90px;
+  text-align: center;
+  border-left: auto;
+  border-right: auto;
+  background-color: red;
+  }
+li2{
+    display: inline-block;
+    height: 40px;
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 26px;
+    text-align: center;
+    border-left: auto;
+    border-right: auto;
+    background-color: red;
+    }
+li3{
+      display: inline-block;
+      height: 40px;
+      width: 400px;
+      padding-right: 90px;
+      text-align: center;
+      border-left: auto;
+      border-right: auto;
+      background-color: red;
+      }
+
+
+li1:hover{
+    background-color: blue;
+  }
+li2:hover{
+    background-color: yellow;
+  }
+li3:hover{
+  background-color: green;
+  }
+
+table{
+  background-color: red;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  width: auto;
+  background-color: red;
+}
+
+textarea{
+  height: 400px;
+  }
+
+button:active{
+  background-color: red;
+  }
+
+footer{
+  
+  color: red;
+  background-color: blue;
+  width: auto;
+  height: 100px;
+  margin:auto;
+  padding: 10px 10px 10px 10px;
+  }
